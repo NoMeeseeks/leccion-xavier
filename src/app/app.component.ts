@@ -4,10 +4,11 @@ import swal from 'sweetalert';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {MenuOpcionesComponent} from './menu-opciones/menu-opciones.component';
+import {CarruselComponent} from './carrusel/carrusel.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, MenuOpcionesComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, MenuOpcionesComponent, CarruselComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
